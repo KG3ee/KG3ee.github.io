@@ -440,16 +440,16 @@ section {
                       linear-gradient(135deg, var(--accent), var(--gold));
     background-origin: border-box;
     background-clip: padding-box, border-box;
-    box-shadow: 0 20px 50px rgba(var(--accent-rgb), 0.15),
-                0 0 30px rgba(var(--accent-rgb), 0.08);
+    box-shadow: 0 20px 50px rgba(var(--accent-rgb), 0.10),
+                0 0 16px rgba(var(--accent-rgb), 0.04);
     transition: var(--transition);
     filter: contrast(1.04) brightness(1.02);
     object-fit: cover;
 }
 
 .about-image:hover img {
-    box-shadow: 0 25px 60px rgba(var(--accent-rgb), 0.25),
-                0 0 40px rgba(var(--accent-rgb), 0.12);
+    box-shadow: 0 25px 60px rgba(var(--accent-rgb), 0.16),
+                0 0 22px rgba(var(--accent-rgb), 0.06);
     transform: translateY(-4px);
 }
 
@@ -460,13 +460,13 @@ section {
     border-radius: 22px;
     background: linear-gradient(135deg, var(--accent), var(--gold));
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.18;
     filter: blur(15px);
     transition: var(--transition);
 }
 
 .about-image:hover::before {
-    opacity: 0.7;
+    opacity: 0.3;
     filter: blur(20px);
 }
 
@@ -477,12 +477,12 @@ section {
     border: 3px solid var(--accent);
     border-radius: 20px;
     z-index: -1;
-    opacity: 0.3;
+    opacity: 0.16;
     transition: var(--transition);
 }
 
 .about-image:hover::after {
-    opacity: 0.5;
+    opacity: 0.28;
     inset: 10px -14px -14px 10px;
 }
 
