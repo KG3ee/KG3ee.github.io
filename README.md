@@ -90,7 +90,7 @@ Open `index.html` in any modern browser.
 
 ## Links
 
-- **GitHub**: [John-myint](https://github.com/John-myint)
+- **GitHub**: [KG3ee](https://github.com/KG3ee)
 - **Email**: kyawlaymyint@icloud.com
 - **Facebook**: [kyawlay.myint.12](https://www.facebook.com/kyawlay.myint.12)
 - **Twitter**: [@KyawLayMyint1](https://x.com/KyawLayMyint1)
