@@ -8,11 +8,9 @@ A modern, responsive personal portfolio website with a premium dark/light theme,
 - **Responsive Design** — Optimized for desktop, tablet, and mobile with a slide-out hamburger menu
 - **SEO Optimized** — Open Graph, Twitter Card, meta description, semantic HTML5
 - **Accessibility** — Skip-to-content link, ARIA labels, keyboard navigation, `prefers-reduced-motion` support
-- **Project Showcase** — 8 project cards with gradient thumbnails, technology badges, and completion dates
-- **Skills Section** — Animated progress bars that fill on scroll, organized by Frontend / Backend / Tools
+- **Project Showcase** — 11 project cards with gradient thumbnails, technology badges, and completion dates
+- **Skills Section** — Animated progress bars that fill on scroll, organized by Frontend / Backend / Automation & DevOps
 - **About Section** — Profile image with animated stat counters (projects, skills, experience)
-- **Testimonials** — 3 testimonial cards with star ratings
-- **Blog Section** — 3 article preview cards
 - **Contact Form** — Client-side validation with animated submit states (loading → success)
 - **Contact Links** — Email, GitHub, Facebook, Twitter, Telegram
 - **Scroll Progress Bar** — Thin gradient bar at the top of the viewport
@@ -49,11 +47,9 @@ Portfolio/
 2. **Hero** — Greeting, gradient name, subtitle, two CTA buttons, floating accent circles
 3. **About** — Profile image, bio paragraphs, animated stat counters
 4. **Skills** — 3 categories with animated progress bars
-5. **Projects** — 8 cards with gradient icon thumbnails, dates, descriptions, GitHub links
-6. **Testimonials** — 3 quote cards with star ratings and author info
-7. **Blog** — 3 article preview cards with tags and dates
-8. **Contact** — Form (name, email, subject, message) + social/contact links
-9. **Footer** — 3-column layout (about, quick links, social icons) + copyright
+5. **Projects** — 11 cards with gradient icon thumbnails, dates, descriptions, GitHub links
+6. **Contact** — Form (name, email, subject, message) + social/contact links
+7. **Footer** — 3-column layout (about, quick links, social icons) + copyright
 
 ## Quick Start
 

@@ -174,8 +174,6 @@
         const targets = [
             '.skill-category',
             '.project-card',
-            '.testimonial-card',
-            '.blog-card',
             '.about-grid',
             '.contact-grid'
         ].join(',');
