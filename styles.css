@@ -13,6 +13,7 @@
     --text-primary: #111111;
     --text-secondary: #666660;
     --border-color: #e2e2de;
+    --input-border: #8a8a84;   /* form field edges need 3:1 against the page */
     --accent: #111111;
     --accent-hover: #3a3a38;
     --on-accent: #ffffff;
@@ -31,6 +32,7 @@
     --text-primary: #f2f2ee;
     --text-secondary: #a3a39c;
     --border-color: #30302d;
+    --input-border: #6e6e68;
     --accent: #f2f2ee;
     --accent-hover: #d9d9d3;
     --on-accent: #111111;
@@ -291,8 +293,6 @@ img {
     font-size: 1.1rem;
     color: var(--text-secondary);
     font-weight: 500;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
     margin-bottom: 0.5rem;
 }
 
@@ -677,7 +677,7 @@ section {
 .form-group input,
 .form-group textarea {
     background: var(--input-bg);
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--input-border);
     border-radius: var(--radius);
     padding: 0.85rem 1.2rem;
     min-height: 44px;
