@@ -1,19 +1,19 @@
 # Kyaw Lay Myint — Personal Portfolio
 
-A modern, responsive personal portfolio website with a premium dark/light theme, scroll-driven animations, and a full-featured contact form.
+A modern, responsive personal portfolio website with a flat, minimal black-and-white Pixel look in light and dark themes, scroll-driven animations, and a full-featured contact form.
 
 ## Features
 
-- **Dark / Light Mode** — Toggle with one click; preference saved in localStorage and respects system settings
+- **Dark / Light Mode** — Toggle with one click; preference saved in localStorage and follows the system setting (light by default)
 - **Responsive Design** — Optimized for desktop, tablet, and mobile with a slide-out hamburger menu
 - **SEO Optimized** — Open Graph, Twitter Card, meta description, semantic HTML5
 - **Accessibility** — Skip-to-content link, ARIA labels, keyboard navigation, `prefers-reduced-motion` support
-- **Project Showcase** — 11 project cards with gradient thumbnails and technology badges
+- **Project Showcase** — 11 project cards with flat icon thumbnails and technology badges
 - **Skills Section** — Animated progress bars that fill on scroll, organized by Frontend / Backend / Automation & DevOps
 - **About Section** — Profile image with animated stat counters (projects, skills, experience)
 - **Contact Form** — Client-side validation with animated submit states (loading → success)
 - **Contact Links** — Email, GitHub, Facebook, Twitter, Telegram
-- **Scroll Progress Bar** — Thin gradient bar at the top of the viewport
+- **Scroll Progress Bar** — Thin flat bar at the top of the viewport
 - **Back to Top Button** — Appears after scrolling 300px
 - **Smooth Scroll** — Anchor links scroll smoothly with offset for the fixed navbar
 - **Parallax Hero** — Subtle parallax effect on the hero section
@@ -22,9 +22,9 @@ A modern, responsive personal portfolio website with a premium dark/light theme,
 ## Technologies
 
 - HTML5 (semantic markup)
-- CSS3 (custom properties, grid, flexbox, `clamp()`, glassmorphism, media queries)
+- CSS3 (custom properties, grid, flexbox, `clamp()`, media queries)
 - Vanilla JavaScript (ES6+, Intersection Observer, localStorage)
-- Google Fonts (Poppins + Space Mono)
+- Google Fonts (Instrument Sans)
 - Font Awesome 6
 
 ## Project Structure
@@ -43,11 +43,11 @@ Portfolio/
 
 ## Sections
 
-1. **Navbar** — Fixed glassmorphism header with gradient logo, navigation links, theme toggle, and hamburger menu
-2. **Hero** — Greeting, gradient name, subtitle, two CTA buttons, floating accent circles
+1. **Navbar** — Fixed solid header with the Pixel logo, navigation links, theme toggle, and hamburger menu
+2. **Hero** — Greeting, name, subtitle, two CTA buttons
 3. **About** — Profile image, bio paragraphs, animated stat counters
 4. **Skills** — 3 categories with animated progress bars
-5. **Projects** — 11 cards with gradient icon thumbnails, descriptions, GitHub links
+5. **Projects** — 11 cards with flat icon thumbnails, descriptions, GitHub links
 6. **Contact** — Form (name, email, subject, message) + social/contact links
 7. **Footer** — 3-column layout (about, quick links, social icons) + copyright
 
@@ -66,23 +66,23 @@ Open `index.html` in any modern browser.
 
 ## Color Themes
 
-### Dark (default)
+### Light (default)
 | Token | Value |
 |---|---|
-| Background | `#0a0e27` |
-| Card | `#1a1f2e` |
-| Accent | `#00d9ff` |
-| Gold | `#ffd700` |
-| Text | `#ffffff` / `#b8c5d6` |
+| Background | `#ffffff` |
+| Surface (cards, alternate sections) | `#f4f4f2` |
+| Text / muted | `#111111` / `#666660` |
+| Border | `#e2e2de` |
+| Accent (button fills) | `#111111` |
 
-### Light
+### Dark
 | Token | Value |
 |---|---|
-| Background | `#f5f7fb` |
-| Card | `#ffffff` |
-| Accent | `#0088bb` |
-| Gold | `#c49400` |
-| Text | `#1a1f2e` / `#5a6577` |
+| Background | `#111111` |
+| Surface (cards, alternate sections) | `#1c1c1b` |
+| Text / muted | `#f2f2ee` / `#a3a39c` |
+| Border | `#30302d` |
+| Accent (button fills) | `#f2f2ee` |
 
 ## Links
 

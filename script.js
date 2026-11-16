@@ -23,13 +23,13 @@
 
     function getPreferredTheme() {
         const stored = localStorage.getItem(THEME_KEY);
-        if (stored) return stored;
-        return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        if (stored === 'light' || stored === 'dark') return stored;
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
     }
 
-    function applyTheme(theme) {
+    function applyTheme(theme, persist) {
         document.documentElement.setAttribute('data-theme', theme);
-        localStorage.setItem(THEME_KEY, theme);
+        if (persist) localStorage.setItem(THEME_KEY, theme);
 
         const icon = themeToggle?.querySelector('i');
         if (!icon) return;
@@ -47,7 +47,7 @@
 
     themeToggle?.addEventListener('click', () => {
         const current = document.documentElement.getAttribute('data-theme');
-        applyTheme(current === 'dark' ? 'light' : 'dark');
+        applyTheme(current === 'dark' ? 'light' : 'dark', true);
     });
 
     // ──────────────────────────────────────────
