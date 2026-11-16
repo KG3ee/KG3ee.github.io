@@ -8,7 +8,7 @@ A modern, responsive personal portfolio website with a flat, minimal black-and-w
 - **Responsive Design** — Optimized for desktop, tablet, and mobile with a slide-out hamburger menu
 - **SEO Optimized** — Open Graph, Twitter Card, meta description, semantic HTML5
 - **Accessibility** — Skip-to-content link, ARIA labels, keyboard navigation, `prefers-reduced-motion` support
-- **Project Showcase** — 11 project cards with flat icon thumbnails and technology badges
+- **Project Showcase** — 13 project cards with flat icon thumbnails and technology badges
 - **Skills Section** — Animated progress bars that fill on scroll, organized by Frontend / Backend / Automation & DevOps
 - **About Section** — Profile image with animated stat counters (projects, skills, experience)
 - **Contact Form** — Client-side validation with animated submit states (loading → success)
